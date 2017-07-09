@@ -30,7 +30,7 @@ class CoursePage extends React.Component {
     }
     
     courseRow(course, index) {
-        return <div key={index}>{course.title}</div>
+        return <div key={index}>{course.title}</div>;
     }
     
     render() {
